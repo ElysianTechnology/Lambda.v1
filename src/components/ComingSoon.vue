@@ -70,9 +70,10 @@
   }
   #coming-soon h1{
     text-align: center;
-    font-size: 35px;
+    font-size: 85px;
     font-family: 'anurati',serif;
   }
+
   #coming-soon img{
     clear: both;
     display: block;
