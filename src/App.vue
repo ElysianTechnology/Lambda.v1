@@ -1,7 +1,8 @@
 <template>
-  <div id="app">
-    <coming-soon></coming-soon>
+    <div id="app" class="app">
+      <coming-soon></coming-soon>
   </div>
+
 </template>
 
 <script>
