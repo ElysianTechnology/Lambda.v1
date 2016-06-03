@@ -1,55 +1,109 @@
 <template>
-    <div id="coming-soon">
+  <div id="coming-soon">
 
-      <h1>ELYSIAN</h1>
+    <h1>ELYSIAN</h1>
 
-      <p>This website is currently under construction...</p>
-      <p></p>
+    <p>This website is currently under construction...</p>
+    <p></p>
 
-    </div>
+  </div>
 </template>
 
 <style>
 
   /* ------------------------------------------------------------------ */
-  body, html  { height: 100%; }html, body, div, span, applet, object, iframe,/*h1,2, h3, h4, h5, h6,*/ p, blockquote, pre,a, abbr, acronym, address,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;}body { line-height: 1; }ol, ul { list-style: none; }blockquote, q { quotes: none; }blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }:focus { outline: 0; }del { text-decoration: line-through; }table {border-spacing: 0; }
+  body, html {
+    height: 100%;
+  }
 
-  .clear {clear: both;display: block;overflow: hidden;visibility: hidden;width: 0;height: 0;}
+  html, body, div, span, applet, object, iframe, /*h1,2, h3, h4, h5, h6,*/
+  p, blockquote, pre, a, abbr, acronym, address, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+  }
+
+  body {
+    line-height: 1;
+  }
+
+  ol, ul {
+    list-style: none;
+  }
+
+  blockquote, q {
+    quotes: none;
+  }
+
+  blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+  }
+
+  :focus {
+    outline: 0;
+  }
+
+  del {
+    text-decoration: line-through;
+  }
+
+  table {
+    border-spacing: 0;
+  }
+
+  .clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
 
   /*------------------------------------------------------------------ */
 
   @font-face {
-    font-family: 'anurati';
-    src: url('../assets/Anurati-Regular.otf');
+    font-family: 'Anurati-Regular';
+    src: url('../assets/Anurati-Regular.eot?#iefix') format('embedded-opentype'); /* IE6-IE8 */
+    src: url('../assets/Anurati-Regular.woff') format('woff'), /* Modern Browsers */ url('../assets/Anurati-Regular.ttf') format('truetype'), /* Safari, Android, IOS */ url('../assets/Anurati-Regular.svg#svgFontName') format('svg') /* Legacy IOS */
   }
 
   /* Page Style */
-  body{
+  body {
     color: #e9e2ee;
     font-size: 14px;
     font-family: sans-serif;
     line-height: 20px;
-    text-shadow: 0 1px 1px rgba(0,0,0,0.75);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
     background: #55575c url('../assets/bg.jpg');
-    -webkit-box-shadow: inset 0 0 300px rgba(0,0,0,0.5);
-    -moz-box-shadow: inset 0 0 300px rgba(0,0,0,0.5);
-    box-shadow: inset 0 0 300px rgba(0,0,0,0.5);
+    -webkit-box-shadow: inset 0 0 300px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: inset 0 0 300px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 300px rgba(0, 0, 0, 0.5);
   }
+
   a,
   a:link,
   a:visited {
     color: #c6eaf7;
     font-weight: bold;
-    text-decoration:none;
+    text-decoration: none;
   }
+
   a:active,
   a:hover {
     color: #d8f3fd;
-    text-shadow: 0 1px 1px rgba(0,0,0,0.75), 0 0 5px rgba(198,234,247,0.4);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75), 0 0 5px rgba(198, 234, 247, 0.4);
   }
-  p{
+
+  p {
     margin-bottom: 0.3em;
   }
+
   .center,
   img.center {
     text-align: center;
@@ -58,8 +112,9 @@
     margin-left: auto;
     margin-right: auto;
   }
-  #coming-soon{
-    background: rgba(0,0,0,0.0);
+
+  #coming-soon {
+    background: rgba(0, 0, 0, 0.0);
     display: block;
     position: absolute;
     width: 800px;
@@ -68,20 +123,22 @@
     left: 50%;
     margin: -160px 0 0 -400px;
   }
-  #coming-soon h1{
+
+  #coming-soon h1 {
     text-align: center;
     font-size: 85px;
-    font-family: 'anurati',serif;
+    font-family: 'Anurati-Regular', sans-serif;
   }
 
-  #coming-soon img{
+  #coming-soon img {
     clear: both;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
   }
-  #coming-soon p{
+
+  #coming-soon p {
     text-align: center;
   }
 </style>
