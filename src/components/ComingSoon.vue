@@ -1,16 +1,41 @@
 <template>
-  <div id="coming-soon">
+  <div id="particles">
+    <div id="coming-soon">
 
-    <h1>ELYSIAN</h1>
+      <h1>ELYSIAN</h1>
 
-    <p>This website is currently under construction...</p>
-    <p></p>
+      <p>This website is currently under construction...</p>
+      <p></p>
 
+    </div>
   </div>
+
 </template>
 
+<<<<<<< HEAD
 <style scoped>
+=======
+<script>
+require('particles.js');
+var $ = require('jquery');
 
+console.log($( "#coming-soon" ));
+
+var particles =  require('../assets/particles.json');
+document.addEventListener('DOMContentLoaded', function(){
+  particlesJS.loadWithJSON('particles', particles, function(){
+  })
+}, false);
+
+</script>
+
+
+<style>
+>>>>>>> origin/master
+
+footer{
+  padding-bottom:0%;
+}
   /* ------------------------------------------------------------------ */
   body, html {
     height: 100%;
@@ -124,6 +149,11 @@
     margin: -160px 0 0 -400px;
   }
 
+  #particles{
+    width: 500px;
+    /*//height:100vw;*/
+  }
+
   #coming-soon h1 {
     text-align: center;
     font-size: 85px;
@@ -140,5 +170,9 @@
 
   #coming-soon p {
     text-align: center;
+  }
+
+  .particles-js-canvas-el {
+    margin-top: -15%;
   }
 </style>
