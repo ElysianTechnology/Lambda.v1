@@ -1,6 +1,6 @@
 {
   "name": "coming-soon",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A Vue.js project",
   "author": "DeanMcgarrigle <dean.mcgarrigle@gmail.com>",
   "private": true,
@@ -16,7 +16,6 @@
     "jquery": "^2.2.4",
     "scrollmagic": "^2.0.5",
     "particles.js": "^2.0.0",
-
     "vue": "^1.0.21"
   },
   "devDependencies": {
@@ -29,11 +28,13 @@
     "babel-preset-stage-2": "^6.0.0",
     "connect-history-api-fallback": "^1.1.0",
     "css-loader": "^0.23.0",
+    "del": "^2.2.0",
     "eventsource-polyfill": "^0.9.6",
     "express": "^4.13.3",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.8.4",
     "function-bind": "^1.0.2",
+    "gulp": "^3.9.1",
     "html-webpack-plugin": "^2.8.1",
     "http-proxy-middleware": "^0.12.0",
     "json-loader": "^0.5.4",
