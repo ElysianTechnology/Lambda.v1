@@ -1,6 +1,6 @@
 {
   "name": "coming-soon",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A Vue.js project",
   "author": "DeanMcgarrigle <dean.mcgarrigle@gmail.com>",
   "private": true,
@@ -14,8 +14,9 @@
     "bootstrap": "^4.0.0-alpha.2",
     "gsap": "^1.18.5",
     "jquery": "^2.2.4",
-    "scrollmagic": "^2.0.5",
     "particles.js": "^2.0.0",
+    "scrollmagic": "^2.0.5",
+    "tether": "^1.1.1",
     "vue": "^1.0.21"
   },
   "devDependencies": {
