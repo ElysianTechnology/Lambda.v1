@@ -28,13 +28,13 @@ module.exports = merge(baseWebpackConfig, {
   },
    resolve:{
     alias: {
-        "TweenLite": Path.resolve('node_modules', 'gsap/src/uncompressed/TweenLite.js'),
-        "TweenMax": Path.resolve('node_modules', 'gsap/src/uncompressed/TweenMax.js'),
-        "TimelineLite": Path.resolve('node_modules', 'gsap/src/uncompressed/TimelineLite.js'),
-        "TimelineMax": Path.resolve('node_modules', 'gsap/src/uncompressed/TimelineMax.js'),
-        "ScrollMagic": Path.resolve('node_modules', 'scrollmagic/scrollmagic/uncompressed/ScrollMagic.js'),
-        "animation.gsap": Path.resolve('node_modules', 'scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap.js'),
-        "debug.addIndicators": Path.resolve('node_modules', 'scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js')
+        "TweenLite": path.resolve('node_modules', 'gsap/src/uncompressed/TweenLite.js'),
+        "TweenMax": path.resolve('node_modules', 'gsap/src/uncompressed/TweenMax.js'),
+        "TimelineLite": path.resolve('node_modules', 'gsap/src/uncompressed/TimelineLite.js'),
+        "TimelineMax": path.resolve('node_modules', 'gsap/src/uncompressed/TimelineMax.js'),
+        "ScrollMagic": path.resolve('node_modules', 'scrollmagic/scrollmagic/uncompressed/ScrollMagic.js'),
+        "animation.gsap": path.resolve('node_modules', 'scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap.js'),
+        "debug.addIndicators": path.resolve('node_modules', 'scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js')
     }
   },
   plugins: [
