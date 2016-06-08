@@ -14,6 +14,10 @@
 
 <script>
 require('particles.js');
+var $ = require('jquery');
+
+console.log($( "#coming-soon" ));
+
 var particles =  require('../assets/particles.json');
 document.addEventListener('DOMContentLoaded', function(){
   particlesJS.loadWithJSON('particles', particles, function(){
@@ -25,6 +29,9 @@ document.addEventListener('DOMContentLoaded', function(){
 
 <style>
 
+footer{
+  padding-bottom:0%;
+}
   /* ------------------------------------------------------------------ */
   body, html {
     height: 100%;
