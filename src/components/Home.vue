@@ -24,7 +24,7 @@
 
         <div class="col-md-6 col-md-offset-3">
           <div class="wrap" id="scene-1">
-            <h2>Magic Happens Here</h2>
+            <h2>Magic Happens Here Test</h2>
             <div class="animation" id="animation-1"><i class="fa fa-heart"></i></div>
           </div>
         </div>
