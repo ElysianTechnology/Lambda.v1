@@ -12,12 +12,7 @@
 
 </template>
 
-<<<<<<< HEAD
-<style scoped>
-=======
 <script>
-require('particles.js');
-var $ = require('jquery');
 
 console.log($( "#coming-soon" ));
 
@@ -29,9 +24,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 </script>
 
-
 <style>
->>>>>>> origin/master
 
 footer{
   padding-bottom:0%;

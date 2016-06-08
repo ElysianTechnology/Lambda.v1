@@ -11,15 +11,12 @@
   },
   "dependencies": {
     "babel-runtime": "^6.0.0",
-<<<<<<< HEAD
     "bootstrap": "^4.0.0-alpha.2",
     "gsap": "^1.18.5",
     "jquery": "^2.2.4",
     "scrollmagic": "^2.0.5",
-=======
-    "jquery": "^2.2.4",
     "particles.js": "^2.0.0",
->>>>>>> origin/master
+
     "vue": "^1.0.21"
   },
   "devDependencies": {

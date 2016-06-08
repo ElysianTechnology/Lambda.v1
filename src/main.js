@@ -8,6 +8,7 @@ require('scrollmagic');
 require('gsap');
 require('animation.gsap');
 require('debug.addIndicators');
+require('particles.js');
 
 /* eslint-disable no-new */
 new Vue({
